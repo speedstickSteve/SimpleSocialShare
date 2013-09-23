@@ -1,9 +1,9 @@
 Simple Social Share
 ===
 
-*Work in progress* Simple social sharing plugin for WordPress
+**NOTE: This is work in progress and hasn't yet been tested** 
 
-A really simple and lightweight plugin to add Facebook, Twitter and Google+ sharing to the end of single posts.
+This is a really simple and lightweight plugin to add Facebook, Twitter and Google+ sharing to WordPress using official share buttons &amp; counts.
 
 **Usage**
 ===
