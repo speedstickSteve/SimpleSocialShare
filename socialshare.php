@@ -20,7 +20,26 @@ if ( is_single() ) {
 	function add_social_buttons( $content ) {
 		global $post;
 		$content .=
-		'<div id="fb-root"></div>
+		  '<div id="fb-root"></div>
+			<div class="social-shares">
+				<div class="share-box fb-share">
+				<fb:like layout="button_count" width="450" show_faces="false" send="false"></fb:like>
+				</div>
+				<div class="share-box tw-share">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+				</div>
+				<div class="share-box gplus-share">
+					<div class="g-plusone" data-size="medium"></div>
+				</div>
+			</div>';
+		return $content;
+	}
+}
+
+add_shortcode( 'social_share', 'add_social_shortcode' );
+function add_social_shortcode() {
+	$content .=
+	  '<div id="fb-root"></div>
 		<div class="social-shares">
 			<div class="share-box fb-share">
 			<fb:like layout="button_count" width="450" show_faces="false" send="false"></fb:like>
@@ -32,7 +51,6 @@ if ( is_single() ) {
 				<div class="g-plusone" data-size="medium"></div>
 			</div>
 		</div>';
-		return $content;
-	}
+	return $content;
 }
 ?>
