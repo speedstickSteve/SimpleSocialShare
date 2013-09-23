@@ -2,7 +2,9 @@
 /*
 	Plugin name: Simple Social Shares
 	Author: Steve Vaughan
+	Author URI: http://www.svcreative.co.uk
 	Description: A plugin to show like buttons for Facebook, Twitter & Google+ with button counts too.
+	Version: 1.01
 */
 
 $plugins_url = plugins_url();
