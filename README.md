@@ -1,4 +1,4 @@
-Simple-Social-Share
+Simple Social Share
 ===================
 
 *Work in progress* Simple social sharing plugin for WordPress
