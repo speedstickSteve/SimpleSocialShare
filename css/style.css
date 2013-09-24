@@ -17,3 +17,15 @@
 .fb_iframe_widget span {
 	width: 450px !important;
 }
+
+.fb-no-count {
+	display: block;
+	z-index: 2;
+}
+
+.no-count {
+	display: inline-block;
+	width: auto;
+	margin-right: 7px;
+	z-index: 1;
+}
