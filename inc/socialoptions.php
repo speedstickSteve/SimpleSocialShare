@@ -10,8 +10,8 @@ function socialshare_option() {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
 	}
 	echo '<div class="wrap">';
-	echo '<p>Here is where the form would go if I actually had options.</p>';
-	echo '</div>';
+	screen_icon();
+	echo '<h2>Social Share Plugin Options</h2>''
 }
 
 ?>
