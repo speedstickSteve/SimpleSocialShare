@@ -34,10 +34,9 @@ function add_social_shortcode() {
 	return $content;
 }
 
-if ( is_single() ) {
-	add_action( 'the_content', 'add_social_buttons' );
-	function add_social_buttons( $content ) {
-		global $post;
+add_action( 'the_content', 'add_social_buttons' );
+function add_social_buttons( $content ) {
+	if ( is_single() ) {
 		$content .=
 		  '<div id="fb-root"></div>
 			<div class="social-shares">
@@ -51,7 +50,7 @@ if ( is_single() ) {
 					<div class="g-plusone" data-size="medium"></div>
 				</div>
 			</div>';
-		return $content;
 	}
+	return $content;
 }
 ?>
