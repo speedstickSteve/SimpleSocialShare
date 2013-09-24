@@ -2,3 +2,18 @@
 	width: 100px;
 	display: inline-block;
 }
+
+.fb-share {
+	position: relative;
+	z-index: 1;
+}
+
+.tw-share,
+.gplus-share {
+	position: relative;
+	z-index: 2;
+}
+
+.fb_iframe_widget span {
+	width: 450px !important;
+}
